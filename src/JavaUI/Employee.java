@@ -18,9 +18,9 @@ public class Employee extends javax.swing.JFrame {
     /**
      * Creates new form Employee
      */
-    Employee_Details Details;
+    Employee_Details jDetails;
     public Employee() {
-        Details = new Employee_Details();
+        jDetails = new Employee_Details();
         initComponents();
     }
 
@@ -33,75 +33,75 @@ public class Employee extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        MainPane = new javax.swing.JSplitPane();
-        ControlAreaPanel = new javax.swing.JPanel();
-        Create_Employee = new javax.swing.JButton();
-        View_Employee = new javax.swing.JButton();
-        WorkAreaPanel = new javax.swing.JScrollPane();
+        jMainPane = new javax.swing.JSplitPane();
+        jControlAreaPanel = new javax.swing.JPanel();
+        jCreate_Employee = new javax.swing.JButton();
+        jView_Employee = new javax.swing.JButton();
+        jWorkAreaPanel = new javax.swing.JScrollPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Create_Employee.setText("Create");
-        Create_Employee.addActionListener(new java.awt.event.ActionListener() {
+        jCreate_Employee.setText("Create");
+        jCreate_Employee.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Create_EmployeeActionPerformed(evt);
+                jCreate_EmployeeActionPerformed(evt);
             }
         });
 
-        View_Employee.setText("View");
-        View_Employee.addActionListener(new java.awt.event.ActionListener() {
+        jView_Employee.setText("View");
+        jView_Employee.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                View_EmployeeActionPerformed(evt);
+                jView_EmployeeActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout ControlAreaPanelLayout = new javax.swing.GroupLayout(ControlAreaPanel);
-        ControlAreaPanel.setLayout(ControlAreaPanelLayout);
-        ControlAreaPanelLayout.setHorizontalGroup(
-            ControlAreaPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Create_Employee, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
-            .addComponent(View_Employee, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        javax.swing.GroupLayout jControlAreaPanelLayout = new javax.swing.GroupLayout(jControlAreaPanel);
+        jControlAreaPanel.setLayout(jControlAreaPanelLayout);
+        jControlAreaPanelLayout.setHorizontalGroup(
+            jControlAreaPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jCreate_Employee, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
+            .addComponent(jView_Employee, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        ControlAreaPanelLayout.setVerticalGroup(
-            ControlAreaPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(ControlAreaPanelLayout.createSequentialGroup()
+        jControlAreaPanelLayout.setVerticalGroup(
+            jControlAreaPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jControlAreaPanelLayout.createSequentialGroup()
                 .addGap(166, 166, 166)
-                .addComponent(Create_Employee)
+                .addComponent(jCreate_Employee)
                 .addGap(35, 35, 35)
-                .addComponent(View_Employee)
+                .addComponent(jView_Employee)
                 .addContainerGap(285, Short.MAX_VALUE))
         );
 
-        MainPane.setLeftComponent(ControlAreaPanel);
-        MainPane.setRightComponent(WorkAreaPanel);
+        jMainPane.setLeftComponent(jControlAreaPanel);
+        jMainPane.setRightComponent(jWorkAreaPanel);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(MainPane, javax.swing.GroupLayout.DEFAULT_SIZE, 1059, Short.MAX_VALUE)
+                .addComponent(jMainPane, javax.swing.GroupLayout.DEFAULT_SIZE, 1059, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(MainPane)
+            .addComponent(jMainPane)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void Create_EmployeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Create_EmployeeActionPerformed
+    private void jCreate_EmployeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCreate_EmployeeActionPerformed
         // TODO add your handling code here:
-         Create_Employee Detail = new Create_Employee(Details);
-        MainPane.setRightComponent(Detail);
-    }//GEN-LAST:event_Create_EmployeeActionPerformed
+         Create_Employee jDetail = new Create_Employee(jDetails);
+        jMainPane.setRightComponent(jDetail);
+    }//GEN-LAST:event_jCreate_EmployeeActionPerformed
 
-    private void View_EmployeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_View_EmployeeActionPerformed
+    private void jView_EmployeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jView_EmployeeActionPerformed
         // TODO add your handling code here:
-        View_Employee View = new View_Employee(Details);
-        MainPane.setRightComponent(View);
-    }//GEN-LAST:event_View_EmployeeActionPerformed
+        View_Employee jView = new View_Employee(jDetails);
+        jMainPane.setRightComponent(jView);
+    }//GEN-LAST:event_jView_EmployeeActionPerformed
 
     /**
      * @param args the command line arguments
@@ -139,10 +139,10 @@ public class Employee extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel ControlAreaPanel;
-    private javax.swing.JButton Create_Employee;
-    private javax.swing.JSplitPane MainPane;
-    private javax.swing.JButton View_Employee;
-    private javax.swing.JScrollPane WorkAreaPanel;
+    private javax.swing.JPanel jControlAreaPanel;
+    private javax.swing.JButton jCreate_Employee;
+    private javax.swing.JSplitPane jMainPane;
+    private javax.swing.JButton jView_Employee;
+    private javax.swing.JScrollPane jWorkAreaPanel;
     // End of variables declaration//GEN-END:variables
 }

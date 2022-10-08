@@ -24,23 +24,23 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <Component id="MainPane" pref="1059" max="32767" attributes="0"/>
+              <Component id="jMainPane" pref="1059" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="MainPane" alignment="0" max="32767" attributes="0"/>
+          <Component id="jMainPane" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JSplitPane" name="MainPane">
+    <Container class="javax.swing.JSplitPane" name="jMainPane">
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="ControlAreaPanel">
+        <Container class="javax.swing.JPanel" name="jControlAreaPanel">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
               <JSplitPaneConstraints position="left"/>
@@ -50,42 +50,42 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="Create_Employee" alignment="1" pref="100" max="32767" attributes="0"/>
-                  <Component id="View_Employee" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jCreate_Employee" alignment="1" pref="100" max="32767" attributes="0"/>
+                  <Component id="jView_Employee" alignment="1" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
-                      <Component id="Create_Employee" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCreate_Employee" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="View_Employee" min="-2" max="-2" attributes="0"/>
+                      <Component id="jView_Employee" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="285" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="Create_Employee">
+            <Component class="javax.swing.JButton" name="jCreate_Employee">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Create"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Create_EmployeeActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCreate_EmployeeActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="View_Employee">
+            <Component class="javax.swing.JButton" name="jView_Employee">
               <Properties>
                 <Property name="text" type="java.lang.String" value="View"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="View_EmployeeActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jView_EmployeeActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JScrollPane" name="WorkAreaPanel">
+        <Container class="javax.swing.JScrollPane" name="jWorkAreaPanel">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
               <JSplitPaneConstraints position="right"/>

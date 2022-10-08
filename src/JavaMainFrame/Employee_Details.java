@@ -12,27 +12,27 @@ import JavaMainFrame.Assignment2;
  * @author psidh
  */
 public class Employee_Details {
-    private ArrayList<Assignment2> Details; //stores employee details 
+    private ArrayList<Assignment2> jDetails; //stores employee details 
     
     public Employee_Details() {
-        this.Details = new ArrayList<Assignment2>();
+        this.jDetails = new ArrayList<Assignment2>();
     }
 
-    public ArrayList<Assignment2> getDetails() {
-        return Details;
+    public ArrayList<Assignment2> getjDetails() {
+        return jDetails;
     }
 
-    public void setDetails(ArrayList<Assignment2> Details) {
-        this.Details = Details;
+    public void setjDetails(ArrayList<Assignment2> Details) {
+        this.jDetails = jDetails;
     }
     
-    public Assignment2 addEmployee(){
-    Assignment2 Employee = new Assignment2();
-    Details.add(Employee);
-    return Employee;
+    public Assignment2 addjEmployee(){
+    Assignment2 jEmployee = new Assignment2();
+    jDetails.add(jEmployee);
+    return jEmployee;
     }
-    public void Delete_Employee(Assignment2 Employee){
-         Details.remove(Employee);
+    public void Delete_Employee(Assignment2 jEmployee){
+         jDetails.remove(jEmployee);
     }
     
     

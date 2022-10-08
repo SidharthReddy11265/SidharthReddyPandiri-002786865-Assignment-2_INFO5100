@@ -11,117 +11,117 @@ import java.io.File;
  * @author psidh
  */
 public class Assignment2 {
-    private String First_Name;//Name of the employee
-    private String Last_Name;
-    private String Employee_ID;
-    private Integer Age;// Age of an Employee
-    private String Gender;//Gender of an Employee
-    private String Start_Date; // Date of Joining
-    private Integer Level; // Position or Job Level
-    private String Team_Info; // Team or Project Info
-    private String Position_Title; // Designation
-    private Integer Mobile_Number; 
-    private String Email_ID;
-    private File Photo; //Photo of an Employee
+    private String jFirst_Name;//Name of the employee
+    private String jLast_Name;
+    private String jEmployee_ID;
+    private Integer jAge;// Age of an Employee
+    private String jGender;//Gender of an Employee
+    private String jStart_Date; // Date of Joining
+    private Integer jLevel; // Position or Job Level
+    private String jTeam_Info; // Team or Project Info
+    private String jPosition_Title; // Designation
+    private Integer jMobile_Number; 
+    private String jEmail_ID;
+    private File jPhoto; //Photo of an Employee
 
-    public String getFirst_Name() {
-        return First_Name;
+    public String getjFirst_Name() {
+        return jFirst_Name;
     }
 
-    public void setFirst_Name(String First_Name) {
-        this.First_Name = First_Name;
+    public void setjFirst_Name(String jFirst_Name) {
+        this.jFirst_Name = jFirst_Name;
     }
 
-    public String getLast_Name() {
-        return Last_Name;
+    public String getjLast_Name() {
+        return jLast_Name;
     }
 
-    public void setLast_Name(String Last_Name) {
-        this.Last_Name = Last_Name;
+    public void setjLast_Name(String jLast_Name) {
+        this.jLast_Name = jLast_Name;
     }
 
-    public String getEmployee_ID() {
-        return Employee_ID;
+    public String getjEmployee_ID() {
+        return jEmployee_ID;
     }
 
-    public void setEmployee_ID(String Employee_ID) {
-        this.Employee_ID = Employee_ID;
+    public void setjEmployee_ID(String jEmployee_ID) {
+        this.jEmployee_ID = jEmployee_ID;
     }
 
-    public Integer getAge() {
-        return Age;
+    public Integer getjAge() {
+        return jAge;
     }
 
-    public void setAge(Integer Age) {
-        this.Age = Age;
+    public void setjAge(Integer jAge) {
+        this.jAge = jAge;
     }
 
-    public String getGender() {
-        return Gender;
+    public String getjGender() {
+        return jGender;
     }
 
-    public void setGender(String Gender) {
-        this.Gender = Gender;
+    public void setjGender(String jGender) {
+        this.jGender = jGender;
     }
 
-    public String getStart_Date() {
-        return Start_Date;
+    public String getjStart_Date() {
+        return jStart_Date;
     }
 
-    public void setStart_Date(String Start_Date) {
-        this.Start_Date = Start_Date;
+    public void setjStart_Date(String jStart_Date) {
+        this.jStart_Date = jStart_Date;
     }
 
-    public Integer getlevel() {
-        return Level;
+    public Integer getjLevel() {
+        return jLevel;
     }
 
-    public void setLevel(Integer Level) {
-        this.Level = Level;
+    public void setjLevel(Integer jLevel) {
+        this.jLevel = jLevel;
     }
 
-    public String getTeam_Info() {
-        return Team_Info;
+    public String getjTeam_Info() {
+        return jTeam_Info;
     }
 
-    public void setTeam_Info(String Team_Info) {
-        this.Team_Info = Team_Info;
+    public void setjTeam_Info(String jTeam_Info) {
+        this.jTeam_Info = jTeam_Info;
     }
 
-    public String getPosition_Title() {
-        return Position_Title;
+    public String getjPosition_Title() {
+        return jPosition_Title;
     }
 
-    public void setPosition_Title(String Position_Title) {
-        this.Position_Title = Position_Title;
+    public void setjPosition_Title(String jPosition_Title) {
+        this.jPosition_Title = jPosition_Title;
     }
 
-    public Integer getMobile_Number() {
-        return Mobile_Number;
+    public Integer getjMobile_Number() {
+        return jMobile_Number;
     }
 
-    public void setMobile_Number(Integer Mobile_Number) {
-        this.Mobile_Number = Mobile_Number;
+    public void setjMobile_Number(Integer jMobile_Number) {
+        this.jMobile_Number = jMobile_Number;
     }
 
-    public String getEmail_ID() {
-        return Email_ID;
+    public String getjEmail_ID() {
+        return jEmail_ID;
     }
 
-    public void setEmail_ID(String Email_ID) {
-        this.Email_ID = Email_ID;
+    public void setjEmail_ID(String jEmail_ID) {
+        this.jEmail_ID = jEmail_ID;
     }
 
-    public File getPhoto() {
-        return Photo;
+    public File getjPhoto() {
+        return jPhoto;
     }
 
-    public void setPhoto(File Photo) {
-        this.Photo = Photo;
+    public void setjPhoto(File jPhoto) {
+        this.jPhoto = jPhoto;
     }
     @Override
     public String toString(){
-    return First_Name;
+    return jFirst_Name;
     }
 }
 

@@ -21,42 +21,42 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="251" max="-2" attributes="0"/>
-                      <Component id="Save" min="-2" pref="93" max="-2" attributes="0"/>
+                      <Component id="jSave" min="-2" pref="93" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="Employee_Level" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Start_Date" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Gender" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Employee_Age" alignment="1" max="32767" attributes="0"/>
-                          <Component id="First_Name" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Email_ID" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Mobile_Number" alignment="1" pref="111" max="32767" attributes="0"/>
-                          <Component id="Position_Title" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Team_Info" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Employee_ID" max="32767" attributes="0"/>
-                          <Component id="Last_Name" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jEmployee_Level" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jStart_Date" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jGender" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jEmployee_Age" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jFirst_Name" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jEmail_ID" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jMobile_Number" alignment="1" pref="111" max="32767" attributes="0"/>
+                          <Component id="jPosition_Title" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTeam_Info" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jEmployee_ID" max="32767" attributes="0"/>
+                          <Component id="jLast_Name" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="GenderText" alignment="0" pref="348" max="32767" attributes="0"/>
-                          <Component id="StartDateText" alignment="0" max="32767" attributes="0"/>
-                          <Component id="LevelText" alignment="0" max="32767" attributes="0"/>
-                          <Component id="TeamInfoText" alignment="0" max="32767" attributes="0"/>
-                          <Component id="TitleText" max="32767" attributes="0"/>
-                          <Component id="EmailText" alignment="0" max="32767" attributes="0"/>
-                          <Component id="MobileText" alignment="1" max="32767" attributes="0"/>
-                          <Component id="AgeText" max="32767" attributes="0"/>
-                          <Component id="EmployeeText" alignment="1" max="32767" attributes="0"/>
-                          <Component id="FirstNameText" alignment="1" max="32767" attributes="0"/>
-                          <Component id="LastNameText" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jGenderText" alignment="0" pref="348" max="32767" attributes="0"/>
+                          <Component id="jStartDateText" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLevelText" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTeamInfoText" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTitleText" max="32767" attributes="0"/>
+                          <Component id="jEmailText" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jMobileText" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jAgeText" max="32767" attributes="0"/>
+                          <Component id="jEmployeeText" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jFirstNameText" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jLastNameText" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="71" pref="71" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jTextField1" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
-                          <Component id="Photo" min="-2" pref="111" max="-2" attributes="0"/>
-                          <Component id="PhotoLable" min="-2" pref="146" max="-2" attributes="0"/>
+                          <Component id="jPhoto" min="-2" pref="111" max="-2" attributes="0"/>
+                          <Component id="jPhotoLable" min="-2" pref="146" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -74,76 +74,76 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="First_Name" max="32767" attributes="0"/>
-                                  <Component id="FirstNameText" pref="27" max="32767" attributes="0"/>
+                                  <Component id="jFirst_Name" max="32767" attributes="0"/>
+                                  <Component id="jFirstNameText" pref="27" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="LastNameText" pref="27" max="32767" attributes="0"/>
-                                  <Component id="Last_Name" max="32767" attributes="0"/>
+                                  <Component id="jLastNameText" pref="27" max="32767" attributes="0"/>
+                                  <Component id="jLast_Name" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="Employee_ID" pref="28" max="32767" attributes="0"/>
-                                  <Component id="EmployeeText" max="32767" attributes="0"/>
+                                  <Component id="jEmployee_ID" pref="28" max="32767" attributes="0"/>
+                                  <Component id="jEmployeeText" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="Employee_Age" pref="27" max="32767" attributes="0"/>
-                                  <Component id="AgeText" max="32767" attributes="0"/>
+                                  <Component id="jEmployee_Age" pref="27" max="32767" attributes="0"/>
+                                  <Component id="jAgeText" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="PhotoLable" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="jPhotoLable" min="-2" pref="146" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Gender" pref="27" max="32767" attributes="0"/>
-                          <Component id="GenderText" max="32767" attributes="0"/>
+                          <Component id="jGender" pref="27" max="32767" attributes="0"/>
+                          <Component id="jGenderText" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Start_Date" pref="27" max="32767" attributes="0"/>
-                          <Component id="StartDateText" max="32767" attributes="0"/>
+                          <Component id="jStart_Date" pref="27" max="32767" attributes="0"/>
+                          <Component id="jStartDateText" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
-                      <Component id="Photo" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPhoto" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="Employee_Level" pref="27" max="32767" attributes="0"/>
-                  <Component id="LevelText" pref="27" max="32767" attributes="0"/>
+                  <Component id="jEmployee_Level" pref="27" max="32767" attributes="0"/>
+                  <Component id="jLevelText" pref="27" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="TeamInfoText" min="-2" pref="27" max="-2" attributes="0"/>
-                  <Component id="Team_Info" max="32767" attributes="0"/>
+                  <Component id="jTeamInfoText" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jTeam_Info" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="TitleText" pref="27" max="32767" attributes="0"/>
-                  <Component id="Position_Title" max="32767" attributes="0"/>
+                  <Component id="jTitleText" pref="27" max="32767" attributes="0"/>
+                  <Component id="jPosition_Title" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="MobileText" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                  <Component id="Mobile_Number" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jMobileText" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jMobile_Number" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="EmailText" min="-2" max="-2" attributes="0"/>
-                  <Component id="Email_ID" alignment="0" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jEmailText" min="-2" max="-2" attributes="0"/>
+                  <Component id="jEmail_ID" alignment="0" min="-2" pref="22" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-              <Component id="Save" min="-2" max="-2" attributes="0"/>
+              <Component id="jSave" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -159,43 +159,43 @@
         <Property name="text" type="java.lang.String" value="Enter Employee Details"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="First_Name">
+    <Component class="javax.swing.JLabel" name="jFirst_Name">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="First Name"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Last_Name">
+    <Component class="javax.swing.JLabel" name="jLast_Name">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Last Name"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Employee_Age">
+    <Component class="javax.swing.JLabel" name="jEmployee_Age">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Age"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Gender">
+    <Component class="javax.swing.JLabel" name="jGender">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Gender"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Start_Date">
+    <Component class="javax.swing.JLabel" name="jStart_Date">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Start Date"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Employee_Level">
+    <Component class="javax.swing.JLabel" name="jEmployee_Level">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Level"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Team_Info">
+    <Component class="javax.swing.JLabel" name="jTeam_Info">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Team Info"/>
@@ -207,86 +207,96 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Position_Title">
+    <Component class="javax.swing.JLabel" name="jPosition_Title">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Position Title"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Mobile_Number">
+    <Component class="javax.swing.JLabel" name="jMobile_Number">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mobile Number"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Email_ID">
+    <Component class="javax.swing.JLabel" name="jEmail_ID">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Email"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="FirstNameText">
+    <Component class="javax.swing.JTextField" name="jFirstNameText">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FirstNameTextActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFirstNameTextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="AgeText">
+    <Component class="javax.swing.JTextField" name="jAgeText">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AgeTextActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jAgeTextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="LevelText">
+    <Component class="javax.swing.JTextField" name="jLevelText">
     </Component>
-    <Component class="javax.swing.JTextField" name="GenderText">
+    <Component class="javax.swing.JTextField" name="jGenderText">
     </Component>
-    <Component class="javax.swing.JTextField" name="StartDateText">
+    <Component class="javax.swing.JTextField" name="jStartDateText">
     </Component>
-    <Component class="javax.swing.JTextField" name="TitleText">
+    <Component class="javax.swing.JTextField" name="jTitleText">
     </Component>
-    <Component class="javax.swing.JTextField" name="TeamInfoText">
+    <Component class="javax.swing.JTextField" name="jTeamInfoText">
     </Component>
-    <Component class="javax.swing.JTextField" name="EmailText">
+    <Component class="javax.swing.JTextField" name="jEmailText">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EmailTextActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jEmailTextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="MobileText">
+    <Component class="javax.swing.JTextField" name="jMobileText">
     </Component>
-    <Component class="javax.swing.JButton" name="Photo">
+    <Component class="javax.swing.JButton" name="jPhoto">
       <Properties>
         <Property name="text" type="java.lang.String" value="Upload Photo"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PhotoActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPhotoActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Save">
+    <Component class="javax.swing.JButton" name="jSave">
       <Properties>
         <Property name="text" type="java.lang.String" value="Save"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jSaveActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="Employee_ID">
+    <Component class="javax.swing.JLabel" name="jEmployee_ID">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Employee ID"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="EmployeeText">
+    <Component class="javax.swing.JTextField" name="jEmployeeText">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EmployeeTextActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jEmployeeTextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="LastNameText">
+    <Component class="javax.swing.JTextField" name="jLastNameText">
     </Component>
-    <Component class="javax.swing.JLabel" name="PhotoLable">
+    <Component class="javax.swing.JLabel" name="jPhotoLable">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
