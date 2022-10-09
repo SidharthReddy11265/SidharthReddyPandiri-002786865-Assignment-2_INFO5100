@@ -79,7 +79,7 @@ public class Create_Employee extends javax.swing.JPanel {
         jEmployee_Age.setText("Age");
 
         jGender.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jGender.setText("Gender");
+        jGender.setText("Gender(male.female.other)");
 
         jStart_Date.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jStart_Date.setText("Start Date  (dd/mm/yyyy)");
@@ -189,7 +189,7 @@ public class Create_Employee extends javax.swing.JPanel {
                             .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPhotoLable, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(146, Short.MAX_VALUE))
+                .addContainerGap(139, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -295,9 +295,14 @@ public class Create_Employee extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(this,"Please Enter Age");
         }
       
-        else if(jGender.equals("")) {
-            JOptionPane.showMessageDialog(this,"Please Enter Gender");
+        else if(!jGender.equalsIgnoreCase("male") && !jGender.equalsIgnoreCase("female") && !jGender.equalsIgnoreCase("other") ) {
+            JOptionPane.showMessageDialog(this,"Please Enter a Valid Gender");
         }
+        
+//        else if(!jGender.toLowerCase().equals("other")) {
+//            JOptionPane.showMessageDialog(this,"Please Enter Gender");
+//        }
+        
         else if(jStart_Date.equals("")) {
             JOptionPane.showMessageDialog(this,"Please Enter Start Date");
         }
