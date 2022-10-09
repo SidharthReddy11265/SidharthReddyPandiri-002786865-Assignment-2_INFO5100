@@ -82,7 +82,7 @@ public class Create_Employee extends javax.swing.JPanel {
         jGender.setText("Gender");
 
         jStart_Date.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jStart_Date.setText("Start Date");
+        jStart_Date.setText("Start Date  (dd/mm/yyyy)");
 
         jEmployee_Level.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jEmployee_Level.setText("Level");
@@ -166,7 +166,7 @@ public class Create_Employee extends javax.swing.JPanel {
                             .addComponent(jEmployee_Age, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jFirst_Name, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jEmail_ID, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jMobile_Number, javax.swing.GroupLayout.DEFAULT_SIZE, 111, Short.MAX_VALUE)
+                            .addComponent(jMobile_Number, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jPosition_Title, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jTeam_Info, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jEmployee_ID, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -189,7 +189,7 @@ public class Create_Employee extends javax.swing.JPanel {
                             .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPhotoLable, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(170, Short.MAX_VALUE))
+                .addContainerGap(146, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -318,6 +318,9 @@ public class Create_Employee extends javax.swing.JPanel {
         }
         else if (jPhotoLable.getIcon()==null){
             JOptionPane.showMessageDialog(this,"Please upload an Image");
+        }
+        else if (!jStart_Date.matches("^[0-3]?[0-9]/[0-3]?[0-9]/(?:[0-9]{2})?[0-9]{2}$")){
+            JOptionPane.showMessageDialog(this,"Please Enter a valid Date");
         }
         else if(!jEmail_ID.matches("^(.+)@(.+)$")){
             JOptionPane.showMessageDialog(this,"Please Enter a valid Email ID");
