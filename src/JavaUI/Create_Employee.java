@@ -279,44 +279,50 @@ public class Create_Employee extends javax.swing.JPanel {
         File file = new File(jTextField1.getText());
         
         
-        if((jFirst_Name.equals("")) && (jLast_Name.equals(""))&& (jEmployee_ID.equals("")) && (jAge == 0) && (jGender.equals("")) && (jStart_Date.equals("")) && (jLevel == 0) && (jTeam_Info.equals("")) && (jPosition_Title.equals("")) && (jMobile_N0 == 0) && (jEmail_ID.equals("")) ){
-                JOptionPane.showMessageDialog(this,"Please Enter the Employee Details");
+//        if((jFirst_Name.equals("")) && (jLast_Name.equals(""))&& (jEmployee_ID.equals("")) && (jAge == 0) && (jGender.equals("")) && (jStart_Date.equals("")) && (jLevel == 0) && (jTeam_Info.equals("")) && (jPosition_Title.equals("")) && (jMobile_N0 == 0) && (jEmail_ID.equals("")) ){
+//                JOptionPane.showMessageDialog(this,"Please Enter the Employee Details");
+//        }
+        if(jFirst_Name.equals("")) {
+            JOptionPane.showMessageDialog(this,"Please Enter First Name");
         }
-        else if(jFirst_Name.equals("")) {
-        JOptionPane.showMessageDialog(this,"Please Enter First Name");
-    }
         else if(jLast_Name.equals("")) {
-        JOptionPane.showMessageDialog(this,"Please Enter Last Name");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter Last Name");
+        }
         else if(jEmployee_ID.equals("")) {
-        JOptionPane.showMessageDialog(this,"Please Enter Employee ID");
-    }
-        if(jAge == 0) {
-        JOptionPane.showMessageDialog(this,"Please Enter Age");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter Employee ID");
+        }
+        else if(jAge == 0) {
+            JOptionPane.showMessageDialog(this,"Please Enter Age");
+        }
       
         else if(jGender.equals("")) {
-        JOptionPane.showMessageDialog(this,"Please Enter Gender");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter Gender");
+        }
         else if(jStart_Date.equals("")) {
-        JOptionPane.showMessageDialog(this,"Please Enter Start Date");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter Start Date");
+        }
         else if(jLevel == 0) {
-        JOptionPane.showMessageDialog(this,"Please Enter Level");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter Level");
+        }
         else if(jTeam_Info.equals("")) {
-        JOptionPane.showMessageDialog(this,"Please Enter Team Info");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter Team Info");
+        }
         else if(jPosition_Title.equals("")) {
-        JOptionPane.showMessageDialog(this,"Please Enter Position Title");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter Position Title");
+        }
         else if(jMobile_N0 == 0) {
-        JOptionPane.showMessageDialog(this,"Please Enter First Name");
-    }
+            JOptionPane.showMessageDialog(this,"Please Enter First Name");
+        }
         else if(jEmail_ID.equals("")){
-        JOptionPane.showMessageDialog(this,"Please Enter Email ID");
-    }
-        else
+            JOptionPane.showMessageDialog(this,"Please Enter Email ID");
+        }
+        else if (jPhotoLable.getIcon()==null){
+            JOptionPane.showMessageDialog(this,"Please upload an Image");
+        }
+        else if(!jEmail_ID.matches("^(.+)@(.+)$")){
+            JOptionPane.showMessageDialog(this,"Please Enter a valid Email ID");
+        }
+        else 
             
         {
         Assignment2 EmployeeDetails = jDetails.addjEmployee();
